@@ -12,7 +12,7 @@ const toggleLocales = () => {
 
 <template>
   <nav class="text-xl mt-6">
-    <router-link class="icon-btn mx-2" to="/" :title="t('button.home')">
+    <router-link class="icon-btn mx-2" to="/" :title="t('menu.home')">
       <carbon-campsite />
     </router-link>
 
